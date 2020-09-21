@@ -15,7 +15,7 @@
     margin-top: 150px;
     margin-left: 50px;
     margin-bottom: 50px;
-    border: 2px solid red;
+    border: 2px solid gray;
 }
 
 .card-img-top {
@@ -32,5 +32,5 @@ footer {
 }
 
 #quote-by {
-    color: black;
+    color: pink;
 }
