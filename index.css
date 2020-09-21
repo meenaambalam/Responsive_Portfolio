@@ -1,0 +1,36 @@
+.hero {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2px; /*changed 25px to 2px*/
+    background-image: url("https://www.proflowers.com/blog/wp-content/uploads/2019/08/japanese-flowers-hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.white-box {
+    background-color: white;
+    height: 50%;
+    width: 75%;
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 2px solid red;
+}
+
+.card-img-top {
+    float: left;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#quote-by {
+    color: black;
+}
