@@ -48,7 +48,7 @@ Clicking on each of the portfolio image will take the user to the respective web
 * Google FU
 * Bootstrap CDN
 * W3 Schools
-* Iamges:
+* Images:
     * Hero Image:
         * www.proflowers.com
     * Portfolio Images:
