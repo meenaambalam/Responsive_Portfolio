@@ -1,59 +1,56 @@
-# coderefactor
+# Meena Ambalam's Portfolio
+Meena's Portfolio Wesite
 
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
+## Description
 
 ```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+This site is my portfolio website,
+through which I will be able to showcase my coding projects and sites, for visibility to future employers.
+This portfolio site has been attempted to be responsive such that the content and images are responsive to all size media screens.
+
 ```
 
-Details of the changes performed:
----------------------------------
+## Functioning of the site
+```
+The landing page is the "About" page (aka Home Page).
+The "About" link in the Navbar and link behind my name "Meena Ambalam" will also take user to the home page. 
+The "Portfolio" link in the Navbar will take the user to the Portfolio page, where I display many of my coding portfolios.
+The "Contact" link in the Navbar will take the user to the Contact page.
+The page that is currently displayed will show the respective navbar link as active (darker font than the other link).
 
-HTML refactoring:
------------------
+```
 
-1) Used header, main, aside and footer semantic tags instead of their equivalent div tags.
+## Future Development plans
+```
+User of this website will be able to contact me and send message through the "Contact" page.
+Clicking on each of the portfolio image will take the user to the respective website on a separate window
+```
 
-2) changed span to be an id insteaf of a class.
+## Techniques/Tools used in this portfolio
 
-3) Simplied list items to have same class name instead of having different class names for each list item.
+```
+* Hero image
+* Header, Main & Footer - semantic tags
+* Used Bootstrap, to develope the portfolio site with the following items:
+   * A navbar
+   * A responsive layout
+   * Responsive images
+* Matched the design of the webpage to match the reference images/screenshots that were provided in the instructions
+* Used Bootstrap grid system (container, row & column)
+* As the screen/media sizes increase and decrease, the navbar, content and image will adjust to fit into the window size
+* The layout (navbar, header, footer) should be consistent across all the webpages.
+* Used "form" for Contact page
+* Sticky Footer
+```
 
-4) fixed the broken header link
+## Credit
+Google FU
+Bootstrap CDN
+W3 Schools
+Google Images
 
-5) changed the "main" div tags to have the same name
+## URL for to access my Portfolio and Github repositry
 
-6) added alt attribute for all the img elements
+* The URL of the deployed application -  https://meenaambalam.github.io/Responsive_Portfolio/
 
-CSS refactoring:
------------------
-
-1) changed the reference to symentic tags to match with respecitve html changes
-
-2) changed the class to id references to match with respective html changes
-
-3) changed the id to class references to match witht he respective html changes and removed redundant styling.
-
-
-## Review
-
-* The URL of the deployed application -  https://meenaambalam.github.io/coderefactor/
-
-* The URL of the GitHub repository - https://github.com/meenaambalam/coderefactor
+* The URL of the GitHub repository - https://github.com/meenaambalam/Responsive_Portfolio

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio - Meena Ambalam</title>
     <!--BootstrapCDN-->
 
     <!-- CSS only -->
@@ -22,45 +22,45 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
-    <!--My own CSS links-->
-    <link rel="stylesheet" href="./style.css">
+    <!--Customized style CSS links-->
+    <link rel="stylesheet" href="./style/style.css">
 
 
 </head>
 
 <body>
-    <div class="container">
 
+    <!-- Bootstrap Container for the Portfolio page-->
+    <div class="container">
+        <!--Header section of the Portfolio page-->
         <header>
+            <!--Bootstrap Navbar with responsive toggle bar -->
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Meena Ambalam</a>
+                <a class="navbar-brand" href="./index.html"><span>Meena Ambalam</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1">About</a>
+                            <a class="nav-link" href="./index.html">About</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
 
         </header>
 
+        <!-- Main section with Hero image with Profil Picture and Portfolio Information -->
         <main>
             <div class="hero">
                 <div class="row">
@@ -73,31 +73,34 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-6" class="profile-pic">
-                                   <!-- <img src="Meena_Profile_Pic.jpg" alt="Meena Pic" class="img-thumbnail"> -->
-                                   <!-- <img src="Meena_Profile_Pic.jpg" alt="Meena-Profile-pic"> -->
-                                   <img src="Meena_Profile_Pic.jpg" class="img-fluid" alt="Responsive image">
+                                <div class="col-lg-6" class="portfolio-pic">
+                                    <img src="https://cdn.pixabay.com/photo/2020/06/30/22/34/dog-5357794__340.jpg"
+                                        class="img-fluid" alt="Responsive image">
                                 </div>
-                                <div class="col-lg-6" class="profile-pic">
-                                    <img src="Meena_Profile_Pic.jpg" class="img-fluid" alt="Responsive image">
-                                    
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6" class="profile-pic">
-                                    <img src="Meena_Profile_Pic.jpg" class="img-fluid" alt="Responsive image">
-                                    
-                                </div>
-                                <div class="col-lg-6" class="profile-pic">
-                                    <img src="Meena_Profile_Pic.jpg" class="img-fluid" alt="Responsive image">                                  
+                                <div class="col-lg-6" class="portfolio-pic">
+                                    <img src="https://m.jagranjosh.com/imported/images/E/Others/ongole-cattle.JPG"
+                                        class="img-fluid" alt="Responsive image">
+
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-6" class="profile-pic">
-                                    <img src="Meena_Profile_Pic.jpg" class="img-fluid" alt="Responsive image">
-                                    
+                                <div class="col-lg-6" class="portfolio-pic">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1200px-Lion_waiting_in_Namibia.jpg"
+                                        class="img-fluid" alt="Responsive image">
+
                                 </div>
-                                <div class="col-lg-6" class="profile-pic">
+                                <div class="col-lg-6" class="portfolio-pic">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTGf7Hh4ALFZz9-aw-aCVh3j6tUYECY_iKdw&usqp=CAU"
+                                        class="img-fluid" alt="Responsive image">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6" class="portfolio-pic">
+                                    <img src="https://images.theconversation.com/files/279714/original/file-20190617-158936-xx70ra.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                                        class="img-fluid" alt="Responsive image">
+
+                                </div>
+                                <div class="col-lg-6" class="portfolio-pic">
                                     <p></p>
                                 </div>
                             </div>
@@ -107,12 +110,12 @@
             </div>
         </main>
 
+        <!--Sticky footer with copyright element-->
+
         <footer>
-            <p>"When you are able to maintain your own highest standards of integrity – regardless of what others may do
-                – you are destined for greatness."</p>
-            <p id="quote-by">-Napolean Hill</p>
+            <p> &copy; Copyright 2020 <br> Meena Ambalam </p>
         </footer>
-        
+
     </div>
 
 </body>

@@ -1,6 +1,7 @@
 .hero {
     height: 100%;
     width: 100%;
+    margin-bottom: 2px; /*changed 25px to 2px*/
     background-image: url("https://www.proflowers.com/blog/wp-content/uploads/2019/08/japanese-flowers-hero.jpg");
     background-size: cover;
     background-position: center;
@@ -15,6 +16,10 @@
     margin-left: 50px;
     margin-bottom: 50px;
     border: 2px solid gray;
+}
+
+.card-img-top {
+    float: left;
 }
 
 footer {

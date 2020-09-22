@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio-Landing Page</title>
+    <title>Home Page - Meena Ambalam</title>
     <!--BootstrapCDN-->
 
     <!-- CSS only -->
@@ -22,44 +22,44 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
-    <!--My own CSS links-->
-    <link rel="stylesheet" href="./style.css">
+    <!--Customized style CSS links-->
+    <link rel="stylesheet" href="./style/style.css">
 
 
 </head>
 
 <body>
+    <!-- Bootstrap Container for the page-->
     <div class="container">
 
+        <!--Header section of the Home page-->
         <header>
-
+            <!--Bootstrap Navbar with responsive toggle bar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Meena Ambalam</a>
+                <a class="navbar-brand" href="./index.html"><span>Meena Ambalam</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1">About</a>
+                            <a class="nav-link" href="./index.html">About</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
 
         </header>
+
+        <!-- Main section with Hero image with Profil Picture and Portfolio Information -->
 
         <main>
             <div class="hero">
@@ -72,11 +72,11 @@
                                     <hr>
                                 </div>
                             </div>
+
                             <div class="row">
-                                <div class="col-lg-12" id="profile-pic">
-                                    <!--<img src="Meena_Profile_Pic.jpg" alt="Meena Pic" class="img-thumbnail" width>-->
-                                    <img src="Meena_Profile_Pic.jpg" class="rounded float-right" alt="Meena-Profile-pic"
-                                        width="230px" height="230px">
+                                <div class="col-lg-12" id="profile-info">
+                                    <img src="./pictures/Meena_Edited_Pic2.jpg" class="rounded float-left img-fluid"
+                                        alt="Responsive Image" width="230px" height="230px">
                                     <p id="main-para">Lorem Ipsum is simply dummy text of the printing and typesetting
                                         industry.
                                         Lorem Ipsum
@@ -89,16 +89,16 @@
                                         five
                                         centuries,
                                         but also the leap into electronic typesetting, remaining essentially unchanged.
-                                        It
-                                        was
-                                        popularised in the 1960s with the release of Letraset sheets containing Lorem
-                                        Ipsum
-                                        passages,
-                                        and more recently with desktop publishing software like Aldus PageMaker
-                                        including
-                                        versions
-                                        of
-                                        Lorem Ipsum.
+                                        Lorem Ipsum
+                                        has
+                                        been
+                                        the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a
+                                        galley
+                                        of type and scrambled it to make a type specimen book. It has survived not only
+                                        five
+                                        centuries,
+                                        but also the leap into electronic typesetting, remaining essentially unchanged.
                                         <br> <br>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum
@@ -124,16 +124,17 @@
                                     </p>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </main>
 
+        <!--Sticky footer with copyright element-->
+
         <footer>
-            <p>"When you are able to maintain your own highest standards of integrity – regardless of what others may do
-                – you are destined for greatness."</p>
-            <p id="quote-by">-Napolean Hill</p>
+            <p> &copy; Copyright 2020 <br> Meena Ambalam </p>
         </footer>
 
     </div>
