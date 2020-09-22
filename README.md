@@ -26,7 +26,7 @@ User of this website will be able to contact me and send message through the "Co
 Clicking on each of the portfolio image will take the user to the respective website on a separate window
 ```
 
-## Techniques/Tools used in this portfolio
+## Techniques/Framework used in this portfolio
 
 ```
 * Hero image
@@ -44,10 +44,20 @@ Clicking on each of the portfolio image will take the user to the respective web
 ```
 
 ## Credit
-Google FU
-Bootstrap CDN
-W3 Schools
-Google Images
+```
+* Google FU
+* Bootstrap CDN
+* W3 Schools
+* Iamges:
+    * Hero Image:
+        * www.proflowers.com
+    * Portfolio Images:
+        * cdn.pixabay.com
+        * m.jagranjosh.com
+        * upload.wikimedia.org
+        * encrypted-tbn0.gstatic.com
+        * images.theconversation.com
+```
 
 ## URL for to access my Portfolio and Github repositry
 
