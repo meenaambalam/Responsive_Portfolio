@@ -40,4 +40,14 @@ footer {
     font-weight: bold;
     color: white;
     padding: 10px;
+}
+
+.btn{
+    background-color: black;
+}
+
+.btn:hover {
+    background-color : pink;
+    color : black;
+}
 
