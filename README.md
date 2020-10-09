@@ -18,6 +18,7 @@ The "Portfolio" link in the Navbar will take the user to the Portfolio page, whe
 The "Contact" link in the Navbar will take the user to the Contact page.
 The page that is currently displayed will show the respective navbar link as active (darker font than the other link).
 
+The user can contact me through email and LinkeIn.
 ```
 
 ## Future Development plans
@@ -47,6 +48,7 @@ Clicking on each of the portfolio image will take the user to the respective web
 ```
 * Google FU
 * Bootstrap CDN
+* Materialize CDN
 * W3 Schools
 * Images:
     * Hero Image:

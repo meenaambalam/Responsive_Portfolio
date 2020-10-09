@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Meena Ambalam</title>
+    <title>Home Page - Meena Ambalam</title>
     <!--BootstrapCDN-->
 
     <!-- CSS only -->
@@ -13,8 +13,6 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -26,6 +24,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
 
     <!--Customized style CSS links-->
     <link rel="stylesheet" href="./style/style.css">
@@ -34,9 +33,10 @@
 </head>
 
 <body>
-    <!-- Bootstrap Container for Contact page-->
+    <!-- Bootstrap Container for the page-->
     <div class="container">
-        <!--Header section of the Contact page-->
+
+        <!--Header section of the Home page-->
         <header>
             <!--Bootstrap Navbar with responsive toggle bar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -48,16 +48,13 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./resume.html">Resume</a>
-                        </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="./index.html">About</a>
                         </li>
                     </ul>
@@ -75,37 +72,34 @@
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h1>Contact
-                                        <a class="waves-effect waves-light btn btn-floating"
-                                            href="mailto: meena.a.ambalam@gmail.com" target="_window"><i class="fa fa-envelope"></i></a>
-                                        <a class="waves-effect waves-light btn btn-floating linked"
-                                            href="https://www.linkedin.com/in/meena-ambalam-44b7b98/" target="_window">in</a>
-                                        <a class="waves-effect waves-light btn btn-floating" href="#"><i
-                                                class="fa fa-phone"></i></a><span class="pn">612-203-2006</span>
-                                    </h1>
+                                    <h1>About Me</h1>
                                     <hr>
                                 </div>
                             </div>
+
                             <div class="row">
-                                <div class="col-lg-12 card-panel grey lighten-2" id="contact-form">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="inputName">Name</label>
-                                            <input type="text" class="form-control" id="inputName" placeholder="Name">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="inputEmail">Email</label>
-                                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="inputMessage">Message</label>
-                                            <textarea class="form-control" id="textareaMessage" rows="5"
-                                                cols="33">Message</textarea>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </form>
+                                <div class="col-lg-12" id="profile-info">
+                                    <img src="./pictures/Meena_Edited_Pic2.jpg" class="rounded float-left img-fluid"
+                                        alt="Responsive Image" width="230px" height="230px">
+                                    <p id="main-para">
+                                        I'm an IT professional with about 20 years of experience in various platforms from legacy
+                                        system (Mainframe, COBOL, JCL), Unix platforms and different RDBMS (DB2, Oracle, SQL Server).
+                                        
+                                        I was working recently as a Business Analyst and took voluntary separation from my company, due to the 
+                                        impact of the Covid impact to the industry and due to the interest to switching back to development and
+                                        to learn some new technologies where I can show my creativity.
+                                        
+                                        I hold a Bachelor's degree in Computer Science and Engineering from an accredited University in India.
+                                        
+                                        I am very good in people skills, talking with clients and the customers, and in working with a team. I have excellent analytical, 
+                                        problem solving, investigative skills and compelete things to its perfection. 
+
+                                        I can be contacted through email and LinkedIn profile given in the footer.
+                                        
+                                    </p>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -115,10 +109,8 @@
         <!--Sticky footer with copyright element-->
 
         <footer>
-            <span id="footer">
-                <p>"Great minds discuss ideas; average minds discuss events; small minds discuss people." -- Eleanor
-                    Roosevelt</p>
-            </span>
+            <p> &copy; Copyright 2020 <br> Meena Ambalam </p>
+            <p> &copy; Copyright 2020 <br> Meena Ambalam </p>
         </footer>
 
     </div>
